@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 184, 187
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "奥利奥刷屏神器精简版  by2783608988  "
+MENU IDR_MENU1
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "停止刷屏",IDC_COMMAND2,100,166,53,14
+    PUSHBUTTON      "开始刷屏",IDC_COMMAND1,25,166,52,14
+    LTEXT           "刷屏周期（单位：毫秒）：",IDC_LABLE3,16,80,97,10
+    EDITTEXT        IDC_TEXT2,120,79,45,12,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "奥利奥刷屏神器（C语言制作）",IDC_LABLE1,7,7,170,37,
+                    SS_CENTERIMAGE
+    CONTROL         "已有剪辑文本",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,51,84,22
+    EDITTEXT        IDC_TEXT1,19,101,145,60,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1 24 DISCARDABLE 
+BEGIN
+    0x3f3c, 0x6d78, 0x206c, 0x6576, 0x7372, 0x6f69, 0x3d6e, 0x3122, 0x302e, 
+    0x2022, 0x6e65, 0x6f63, 0x6964, 0x676e, 0x223d, 0x5455, 0x2d46, 0x2238, 
+    0x7320, 0x6174, 0x646e, 0x6c61, 0x6e6f, 0x3d65, 0x7922, 0x7365, 0x3f22, 
+    0x203e, 0x0a0d, 0x613c, 0x7373, 0x6d65, 0x6c62, 0x2079, 0x0a0d, 0x6d78, 
+    0x6e6c, 0x3d73, 0x7522, 0x6e72, 0x733a, 0x6863, 0x6d65, 0x7361, 0x6d2d, 
+    0x6369, 0x6f72, 0x6f73, 0x7466, 0x632d, 0x6d6f, 0x613a, 0x6d73, 0x762e, 
+    0x2231, 0x0d20, 0x6d0a, 0x6e61, 0x6669, 0x7365, 0x5674, 0x7265, 0x6973, 
+    0x6e6f, 0x223d, 0x2e31, 0x2230, 0x0d3e, 0x3c0a, 0x7361, 0x6573, 0x626d, 
+    0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x0d20, 0x700a, 0x6f72, 0x6563, 
+    0x7373, 0x726f, 0x7241, 0x6863, 0x7469, 0x6365, 0x7574, 0x6572, 0x223d, 
+    0x3878, 0x2236, 0x0d20, 0x760a, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e35, 
+    0x2e31, 0x2e30, 0x2230, 0x0a0d, 0x7974, 0x6570, 0x223d, 0x6977, 0x336e, 
+    0x2232, 0x0a0d, 0x616e, 0x656d, 0x223d, 0x6574, 0x7473, 0x652e, 0x6578, 
+    0x2f22, 0x0d3e, 0x3c0a, 0x6564, 0x6373, 0x6972, 0x7470, 0x6f69, 0x3e6e, 
+    0x6554, 0x7473, 0x4120, 0x7070, 0x696c, 0x6163, 0x6974, 0x6e6f, 0x2f3c, 
+    0x6564, 0x6373, 0x6972, 0x7470, 0x6f69, 0x3e6e, 0x0a0d, 0x643c, 0x7065, 
+    0x6e65, 0x6564, 0x636e, 0x3e79, 0x0a0d, 0x643c, 0x7065, 0x6e65, 0x6564, 
+    0x746e, 0x7341, 0x6573, 0x626d, 0x796c, 0x0d3e, 0x3c0a, 0x7361, 0x6573, 
+    0x626d, 0x796c, 0x6449, 0x6e65, 0x6974, 0x7974, 0x0a0d, 0x7974, 0x6570, 
+    0x223d, 0x6977, 0x336e, 0x2232, 0x0a0d, 0x616e, 0x656d, 0x223d, 0x694d, 
+    0x7263, 0x736f, 0x666f, 0x2e74, 0x6957, 0x646e, 0x776f, 0x2e73, 0x6f43, 
+    0x6d6d, 0x6e6f, 0x432d, 0x6e6f, 0x7274, 0x6c6f, 0x2273, 0x0a0d, 0x6576, 
+    0x7372, 0x6f69, 0x3d6e, 0x3622, 0x302e, 0x302e, 0x302e, 0x0d22, 0x700a, 
+    0x6275, 0x696c, 0x4b63, 0x7965, 0x6f54, 0x656b, 0x3d6e, 0x3622, 0x3935, 
+    0x6235, 0x3436, 0x3431, 0x6334, 0x6663, 0x6431, 0x2266, 0x0a0d, 0x616c, 
+    0x676e, 0x6175, 0x6567, 0x223d, 0x222a, 0x0a0d, 0x7270, 0x636f, 0x7365, 
+    0x6f73, 0x4172, 0x6372, 0x6968, 0x6574, 0x7463, 0x7275, 0x3d65, 0x7822, 
+    0x3638, 0x2f22, 0x0d3e, 0x3c0a, 0x642f, 0x7065, 0x6e65, 0x6564, 0x746e, 
+    0x7341, 0x6573, 0x626d, 0x796c, 0x0d3e, 0x3c0a, 0x642f, 0x7065, 0x6e65, 
+    0x6564, 0x636e, 0x3e79, 0x0a0d, 0x2f3c, 0x7361, 0x6573, 0x626d, 0x796c, 
+    "\076" 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "项目1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "软件"
+    BEGIN
+        POPUP "关于"
+        BEGIN
+            MENUITEM "使用说明",                    ID_MENUITEM40003
+            MENUITEM "作者信息",                    ID_MENUITEM40004
+        END
+        MENUITEM "退出",                        ID_MENUITEM40002
+    END
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
